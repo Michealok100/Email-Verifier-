@@ -37,7 +37,7 @@ from telegram.ext import (
 # CONFIGURATION
 # ══════════════════════════════════════════════════════════════════════════════
 
-TELEGRAM_BOT_TOKEN: str     = os.environ.get("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+TELEGRAM_BOT_TOKEN: str     = os.environ.get("TELEGRAM_BOT_TOKEN", "8591866214:AAEh8NNLHQUKcLOH57MRH_tq2TDxduAA6r4")
 DNS_TIMEOUT: float          = 5.0
 SMTP_TIMEOUT: float         = 10.0
 SMTP_CONNECT_TIMEOUT: float = 8.0
