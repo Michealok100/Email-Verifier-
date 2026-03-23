@@ -39,7 +39,7 @@ from verifier import verify_email, Status, OUTPUT_FIELDS
 
 # ── Config ────────────────────────────────────────────────────────────────────
 # Set via environment variable or paste token directly here as fallback
-TELEGRAM_BOT_TOKEN: str = os.environ.get("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+TELEGRAM_BOT_TOKEN: str = os.environ.get("TELEGRAM_BOT_TOKEN", "8591866214:AAEh8NNLHQUKcLOH57MRH_tq2TDxduAA6r4")
 
 # Max emails per CSV upload (protect against abuse)
 MAX_EMAILS_PER_UPLOAD: int = 500
